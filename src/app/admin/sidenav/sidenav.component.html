@@ -1,0 +1,30 @@
+<mat-nav-list routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+    <h2 matSubheader class="mt-2">Bo'lim</h2>
+    <a mat-list-item routerLinkActive="active" routerLink="table">
+        <mat-icon>wallpaper</mat-icon>demo1
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="kopuqilgan">
+        <mat-icon>books</mat-icon>demo1
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="badiiy">
+        <mat-icon>book</mat-icon>demo2
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="tarixiy">
+        <mat-icon>books</mat-icon>demo3
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="fantastik">
+        <mat-icon>book</mat-icon>demo4
+    </a>
+    <a mat-list-item routerLinkActive="jahon" routerLink="jahon">
+        <mat-icon>book</mat-icon>demo5
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="maktab">
+        <mat-icon>book</mat-icon>demo6
+    </a>
+    <a mat-list-item routerLinkActive="active" routerLink="mash">
+        <mat-icon>book</mat-icon>demo7
+    </a>
+    <a mat-list-item routerLinkActive="active" *ngIf="isAdmin" routerLink="user">
+        <mat-icon>U</mat-icon>Foydalanuvchilar
+    </a>
+</mat-nav-list>
